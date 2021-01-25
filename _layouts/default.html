@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤟</text></svg>">
 
@@ -29,8 +31,12 @@
         <img id="logo" src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <h3>I'm myself @jakefitz</h3>
-        <h3>I have fun @simplifi</h3>
+        <h3 style="margin-top: 16px;">
+          I'm myself <a href='https://linktr.ee/jakefitz'
+            target='_blank'>@jakefitz</a> 🤓
+        </h3>
+        <h3>I have fun <a href='https://linktr.ee/simplifiguy'
+            target='_blank'>@simplifi</a> 🎉</h3>
 
         <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 
@@ -38,6 +44,17 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub
             Profile</a></p>
         {% endif %}
+
+        <a href="{{ site.github.owner_url }}" target='_blank'
+          class="fab fa-github"></a>
+        <a href="https://www.linkedin.com/in/jake-fitzgerald-680855b1/"
+          target='_blank' class="fab fa-linkedin-in"></a>
+        <a href="https://twitter.com/jakehenryfitz" target='_blank'
+          class="fab fa-twitter"></a>
+        <a href="https://m.me/jakefitzy" target='_blank'
+          class="fab fa-facebook-messenger"></a>
+        <a href="mailto:jakehenryfitz@gmail.com" target='_blank'
+          class="fas fa-envelope"></a>
       </div>
     </header>
     <section>

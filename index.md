@@ -9,6 +9,10 @@ layout: default
 </div>
 
 <div class='card'>
+  <p>⚒️  Building infra @ <a href='http://whatsapp.com/' target='_blank'>WhatsApp</a></p>
+</div>
+
+<div class='card'>
   <p>👨🏻‍💻 I'm a <code>< SoftwareEngineer /></code> on paper</p>
 </div>
 
@@ -21,7 +25,7 @@ layout: default
 </div>
 
 <div class='card'>
-  <p>🤔 I'm deeply fascinated by social + ed + robotics spaces</p>
+  <p>🤔 I'm drawn to social + education + robotics spaces</p>
 </div>
 
 <div class='card'>
@@ -34,10 +38,6 @@ layout: default
 
 <div class='card'>
   <p>🇦🇺 Australian, born and raised</p>
-</div>
-
-<div class='card'>
-  <p>⚒️  Building infra @ <a href='http://whatsapp.com/' target='_blank'>WhatsApp</a></p>
 </div>
 
 <div class='card'>
