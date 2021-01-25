@@ -44,9 +44,46 @@ layout: default
   <p>🌴 Currently working from Hawaii</p>
 </div>
 
-* * *
+<div class='separator'></div>
+<div class='separator'></div>
+<div class='separator'></div>
 
 # Projects
+
+<div class='card clickable' onclick="window.open('https://www.reach.games','_blank');">
+  <div class='header'>
+    <img src="/assets/img/reach-games.png" />
+    <div class='details'>
+      <h2><a>reach.games</a></h2>
+      <span>Party games for remote play with friends + teams</span>
+      <div class='tag-container'>
+        <span class='tag'>social</span>
+        <span class='tag'>games</span>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class='stats'>
+    <div class='item'>
+      <span class='emoji'>😎</span>
+      <span>
+        <strong>1500+</strong>
+        <br/>
+        MAU
+      </span>
+    </div>
+    <div class='item'>
+      <span class='emoji'>🕹️</span>
+      <span>
+        <strong>224</strong>
+        <br/>
+        games played
+      </span>
+    </div>
+  </div>
+</div>
+
+<div class='separator'></div>
 
 <div class='card clickable' onclick="window.open('https://www.tiktok.com/@simplifi','_blank');">
   <div class='header'>
@@ -84,41 +121,6 @@ layout: default
         <strong>118k</strong>
         <br/>
         likes
-      </span>
-    </div>
-  </div>
-</div>
-
-<div class='separator'></div>
-
-<div class='card clickable' onclick="window.open('https://www.reach.games','_blank');">
-  <div class='header'>
-    <img src="/assets/img/reach-games.png" />
-    <div class='details'>
-      <h2><a>reach.games</a></h2>
-      <span>Party games for remote play with friends + teams</span>
-      <div class='tag-container'>
-        <span class='tag'>social</span>
-        <span class='tag'>games</span>
-      </div>
-    </div>
-  </div>
-  <hr />
-  <div class='stats'>
-    <div class='item'>
-      <span class='emoji'>😎</span>
-      <span>
-        <strong>1500+</strong>
-        <br/>
-        MAU
-      </span>
-    </div>
-    <div class='item'>
-      <span class='emoji'>🕹️</span>
-      <span>
-        <strong>224</strong>
-        <br/>
-        games played
       </span>
     </div>
   </div>
