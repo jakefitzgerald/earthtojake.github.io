@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤟</text></svg>">
+
+  {% seo %}
+  <link rel="stylesheet"
+    href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div id='header-container'>
+        <h1><a
+            href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}
+            🤟</a>
+        </h1>
+
+        {% if site.logo %}
+        <img id="logo" src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <h3>I'm myself @jakefitz</h3>
+        <h3>I have fun @simplifi</h3>
+
+        <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
+
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub
+            Profile</a></p>
+        {% endif %}
+      </div>
+    </header>
+    <section>
+      <div class='section-container'>
+
+        {{ content }}
+
+      </div>
+    </section>
+    <footer>
+      {% if site.github.is_project_page %}
+      <p class="view"><a href="{{ site.github.repository_url }}">View the
+          Project on GitHub <small>{{ site.github.repository_nwo }}</small></a>
+      </p>
+      {% endif %}
+    </footer>
+  </div>
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  {% if site.google_analytics %}
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
+
+</html>
