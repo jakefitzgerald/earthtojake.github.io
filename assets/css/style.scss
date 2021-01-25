@@ -51,6 +51,7 @@ header {
 }
 
 footer {
+  background-color: #3E95FE;
   padding: 36px;
   bottom: 0px;
 }
@@ -63,6 +64,8 @@ section {
   margin-left: 366px;
   float: left;
   width: 600px;
+  border: none;
+  background-color: #edf6ff;
 }
 
 .section-container {
@@ -77,6 +80,9 @@ section {
   }
   header {
     width: 100%;
+  }
+  body {
+    background-color: #3E95FE;
   }
 }
 
@@ -119,7 +125,7 @@ section {
 }
 
 .tag {
-  background-color: grey;
+  background-color: #767676;
   color: white;
   font-size: 12px;
   padding: 2px 8px;

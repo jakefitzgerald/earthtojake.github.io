@@ -59,6 +59,7 @@ layout: default
       <div class='tag-container'>
         <span class='tag'>social</span>
         <span class='tag'>games</span>
+        <span class='tag'>product</span>
       </div>
     </div>
   </div>
@@ -136,6 +137,7 @@ layout: default
       <span>A web app for making bite-sized educational videos</span>
       <div class='tag-container'>
         <span class='tag'>education</span>
+        <span class='tag'>product</span>
       </div>
     </div>
   </div>
@@ -144,7 +146,7 @@ layout: default
     <div class='item'>
       <span class='emoji'>🎓</span>
       <span>
-        <strong>6500+</strong>
+        <strong>10k+</strong>
         <br/>
         MAU
       </span>
@@ -178,6 +180,7 @@ layout: default
       <span>An app for serendipitous gatherings</span>
       <div class='tag-container'>
         <span class='tag'>social</span>
+        <span class='tag'>product</span>
       </div>
     </div>
   </div>
@@ -186,7 +189,7 @@ layout: default
     <div class='item'>
       <span class='emoji'>📲</span>
       <span>
-        <strong>3000+</strong>
+        <strong>3k+</strong>
         <br/>
         downloads
       </span>

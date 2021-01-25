@@ -232,16 +232,17 @@ header { background-color: #3E95FE; height: 100%; width: 350px; }
 
 #header-container > p { color: #edf6ff; }
 
-footer { padding: 36px; bottom: 0px; }
+footer { background-color: #3E95FE; padding: 36px; bottom: 0px; }
 
 footer * { color: #edf6ff; }
 
-section { margin-left: 366px; float: left; width: 600px; }
+section { margin-left: 366px; float: left; width: 600px; border: none; background-color: #edf6ff; }
 
 .section-container { padding: 36px; }
 
 @media print, screen and (max-width: 720px) { section { margin-left: 0px; width: 100%; float: none; }
-  header { width: 100%; } }
+  header { width: 100%; }
+  body { background-color: #3E95FE; } }
 .card { background-color: white; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); padding: 16px; margin-top: 8px; margin-bottom: 8px; transition: all .2s ease-in-out; }
 
 .clickable { cursor: pointer; }
@@ -256,7 +257,7 @@ section { margin-left: 366px; float: left; width: 600px; }
 
 .card > .header > .details > .tag-container { margin-top: 4px; }
 
-.tag { background-color: grey; color: white; font-size: 12px; padding: 2px 8px; border-radius: 8px; font-weight: bold; width: auto; }
+.tag { background-color: #767676; color: white; font-size: 12px; padding: 2px 8px; border-radius: 8px; font-weight: bold; width: auto; }
 
 .emoji { font-size: 24px; margin-right: 16px; }
 
