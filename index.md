@@ -13,7 +13,7 @@ layout: default
 </div>
 
 <div class='card'>
-  <p>👨🏻‍💻 I'm a <code>< SoftwareEngineer /></code> on paper</p>
+  <p>👨🏻‍💻 I'm a <code>&lt;SoftwareEngineer /&gt;</code> on paper</p>
 </div>
 
 <div class='card'>
