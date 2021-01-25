@@ -68,9 +68,9 @@ layout: default
     <div class='item'>
       <span class='emoji'>😎</span>
       <span>
-        <strong>1500+</strong>
+        <strong>1.5k+</strong>
         <br/>
-        MAU
+        WAU
       </span>
     </div>
     <div class='item'>
@@ -193,6 +193,38 @@ layout: default
         <br/>
         downloads
       </span>
+    </div>
+  </div>
+</div>
+
+<div class='separator'></div>
+
+<div class='card clickable' onclick="window.open('https://github.com/earthtojake/faceparty','_blank');">
+  <div class='header'>
+    <img src="/assets/img/faceparty.png" />
+    <div class='details'>
+      <h2><a>FaceParty</a></h2>
+      <span>A 3D rendering engine using Tensorflow's facemesh model</span>
+      <div class='tag-container'>
+        <span class='tag'>ai</span>
+        <span class='tag'>justforfun</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='separator'></div>
+
+<div class='card clickable' onclick="window.open('https://github.com/earthtojake/20q','_blank');">
+  <div class='header'>
+    <img src="/assets/img/20q.png" />
+    <div class='details'>
+      <h2><a>20Q</a></h2>
+      <span>A neural network that plays (and wins) 20 questions</span>
+      <div class='tag-container'>
+        <span class='tag'>ai</span>
+        <span class='tag'>justforfun</span>
+      </div>
     </div>
   </div>
 </div>
